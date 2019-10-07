@@ -1,9 +1,7 @@
-describe "mario" do
-  it "puts out 'It's-a me, Mario!'" do
-     phrase = "It's-a me, Mario!"
+def mario
+phrase = "It's-a me, Mario!"
     puts phrase
     end
-end
 
 def toadstool
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -13,3 +11,7 @@ end
 def any_phrase (phrase)
 puts phrase
 end
+
+ def link
+   puts "It's Dangerous To Go Alone! Take This."
+ end
